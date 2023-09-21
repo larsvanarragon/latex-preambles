@@ -1,0 +1,71 @@
+% commands for mathmode relation symbols
+\newcommand{\defarrow}[0]{\xLeftrightarrow{def}}
+\newcommand{\defeq}{\stackrel{\text{def}}{=}}
+\newcommand{\parcomp}{\mathbin{{|}{|}}}
+\newcommand{\setbar}{\mathrel{{|}}}
+\newcommand{\notimplies}{\centernot\implies}
+\newcommand{\nottrans}[1]{\centernot{\xrightarrow{#1}}}
+\newcommand{\Nottrans}[1]{\centernot{\xRightarrow{#1}}}
+
+\newcommand{\after}{\mathrel{\textbf{after}}}
+\newcommand{\afters}[1]{\mathrel{\textbf{after}_{#1}}}
+\newcommand{\notafter}{\mathrel{\cancel{\textbf{after}}}}
+
+\newcommand{\accepts}[1][]{\mathrel{\textbf{accepts\textsuperscript{#1}}}}
+\newcommand{\notaccepts}[1][]{\mathrel{\cancel{\textbf{accepts\textsuperscript{#1}}}}}
+\newcommand{\mutuallyaccepts}{\mathrel{ \textbf{mutually accepts}}}
+
+\newcommand{\ioco}{\mathrel{\textbf{ioco}}}
+\newcommand{\notioco}{\cancel{\textbf{ioco}}}
+\newcommand{\eco}{\mathrel{\textbf{eco}}}
+\newcommand{\noteco}{\mathrel{\cancel{\textbf{eco}}}}
+\newcommand{\uioco}{\mathrel{\textbf{uioco}}}
+\newcommand{\notuioco}{\mathrel{\cancel{\textbf{uioco}}}}
+
+\newcommand{\iocfl}{\mathrel{\textbf{iocfl}}}
+\newcommand{\uiocfl}{\mathrel{\textbf{uiocfl}}}
+
+\newcommand{\hide}[2]{\mathrel{\textbf{hide}}#1 \mathrel{\textbf{in}} #2}
+\newcommand{\project}[2]{#1\upharpoonright#2}
+\newcommand{\projectop}{\upharpoonright}
+
+%symbol constants
+\newcommand{\LTS}{\mathcal{LTS}}
+\newcommand{\IOTS}{\mathcal{IOTS}}
+\newcommand{\outset}[1]{\textbf{out}(#1)}
+\newcommand{\inset}[1]{\textbf{in}(#1)}
+\newcommand{\Straces}[1]{\textbf{Straces}(#1)}
+\newcommand{\Utraces}[1]{\textbf{Utraces}(#1)}
+\newcommand{\composable}{\textbf{composable}}
+
+\newcommand{\traces}[1]{\textbf{traces}(#1)}
+\newcommand{\Ftraces}[1]{\textbf{Ftraces}(#1)}
+\newcommand{\fcl}[1]{\textbf{fcl}(#1)}
+
+\newcommand{\FT}{\mathcal{FT}}
+\newcommand{\AIA}{\mathcal{AIA}}
+\newcommand{\IA}{\mathcal{IA}}
+
+\newcommand{\pass}{\textbf{pass}}
+\newcommand{\notpasses}{\cancel{\textbf{passes}}}
+\newcommand{\passes}{\mathrel{\textbf{passes}}}
+\newcommand{\fail}{\textbf{fail}}
+\newcommand{\notfails}{\cancel{\textbf{fails}}}
+\newcommand{\fails}{\mathrel{\textbf{fails}}}
+
+\newcommand{\testcomp}{\mathbin{{\rceil}{|}}}
+
+\newcommand{\conf}{\mathrel{\textbf{conf}}}
+\newcommand{\fulfils}{\mathrel{\textbf{fulfils}}}
+
+%sts symbols
+\newcommand{\loc}{\mathcal{L}}
+\newcommand{\varloc}{{\mathcal{V}_l}}
+\newcommand{\vargate}{{\mathcal{V}_p}}
+\newcommand{\inputgate}{{\Gamma_I}}
+\newcommand{\outputgate}{{\Gamma_O}}
+\newcommand{\gate}{{\Gamma}}
+\newcommand{\switchrel}{\mathcal{R}}
+
+%custom symbols
+\newcommand{\nothing}{\textbf{nothing}}
